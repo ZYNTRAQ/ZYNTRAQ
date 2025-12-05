@@ -1,30 +1,41 @@
-# ZYNTRAQ landing page
+ ZYNTRAQ VPN — Chrome Extension
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A lightweight Chrome extension that securely retrieves VPN server information from a private backend.  
+No sensitive data (IP addresses, keys, or server configs) is stored inside the extension or uploaded to GitHub.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andrews-projects-7e164c94/v0-zyntraq-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/mi8hXNn5qlI)
+## 🚀 Features
 
-## Overview
+- Fetches VPN server status from a secure backend endpoint  
+- Clean and simple popup interface  
+- Privacy-first architecture  
+- Fully compatible with Chrome Manifest V3  
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-## Deployment
+- `config.json` is intentionally ignored via `.gitignore`
+- Only `config.example.json` is included in the repository
+- No real VPN server data is stored inside the public codebase
 
-Your project is live at:
+## 📁 Project Structure
 
-**[https://vercel.com/andrews-projects-7e164c94/v0-zyntraq-landing-page](https://vercel.com/andrews-projects-7e164c94/v0-zyntraq-landing-page)**
+```
+vpn-extension/
+│
+├── manifest.json
+├── background.js
+├── config.example.json
+├── popup/
+│   ├── popup.html
+│   ├── popup.js
+│   └── popup.css
+├── README.md
+└── .gitignore
+```
 
-## Build your app
+## 🧩 How It Works
 
-Continue building your app on:
+1. The extension loads `config.json` locally when it runs.  
+2. It reads `vpnApiUrl` from that file.  
+3. It requests VPN status data from your backend via HTTPS.  
+4. Results appear in the popup UI.  
 
-**[https://v0.app/chat/mi8hXNn5qlI](https://v0.app/chat/mi8hXNn5qlI)**
 
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
