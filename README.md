@@ -1,6 +1,6 @@
-# ZYNTRAQ
+# 1. Introduction
 
-## 1. Introduction
+##
 
 ### What is Zyntraq?
 
@@ -50,10 +50,9 @@ To become the modern standard for digital security by offering intelligent, inte
 * Auto‑scaling cloud network
 * DDoS‑protected endpoints
 * Custom latency‑optimized routing
+* ##
 
 ***
-
-## 4. Privacy Policy
 
 ### Zero‑Logs Commitment
 
@@ -77,31 +76,31 @@ Zyntraq **does not collect**:
 
 {% stepper %}
 {% step %}
-### Activate the VPN
+#### Activate the VPN
 
 User activates the VPN.
 {% endstep %}
 
 {% step %}
-### Local encryption
+#### Local encryption
 
 Traffic is encrypted locally.
 {% endstep %}
 
 {% step %}
-### Routing through servers
+#### Routing through servers
 
 Data passes through Zyntraq servers.
 {% endstep %}
 
 {% step %}
-### IP replacement
+#### IP replacement
 
 Real IP is replaced.
 {% endstep %}
 
 {% step %}
-### Exit node
+#### Exit node
 
 Destination only sees the Zyntraq exit node.
 {% endstep %}
@@ -131,15 +130,17 @@ Destination only sees the Zyntraq exit node.
 
 ### Q1
 
-* Launch Zyntraq VPN Beta
-* 50 global servers
-* Windows & Android apps
+* Launch Zyntraq VPN&#x20;
+* 5 global servers
+
+
 
 ### Q2
 
 * macOS & iOS apps
 * ZOP Protocol
-* Browser extension
+
+
 
 ### Q3
 
@@ -155,32 +156,6 @@ Destination only sees the Zyntraq exit node.
 
 ***
 
-## 8. FAQ
-
-<details>
-
-<summary>Is Zyntraq free?</summary>
-
-A limited free version + premium plans.
-
-</details>
-
-<details>
-
-<summary>Do you keep logs?</summary>
-
-No — strict no‑logs policy.
-
-</details>
-
-<details>
-
-<summary>Can I use it for streaming?</summary>
-
-Yes, servers are optimized for HD streaming.
-
-</details>
-
 ***
 
 ## 9. Legal
@@ -193,7 +168,4 @@ Yes, servers are optimized for HD streaming.
 
 ## 10. Contact
 
-Website: https://zyntraqq.com
-Support: support@zyntraq.com
-Tech: dev@zyntraq.com
-Twitter/X: @zyntraq
+Website: https://zyntraqq.com Support: support@zyntraq.com Tech: dev@zyntraq.com Twitter/X: @zyntraq
