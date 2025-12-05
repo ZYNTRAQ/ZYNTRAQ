@@ -193,7 +193,7 @@ Yes, servers are optimized for HD streaming.
 
 ## 10. Contact
 
-Website: https://zyntraq.com\
+Website: https://zyntraqq.com\
 Support: support@zyntraq.com\
 Tech: dev@zyntraq.com\
 Twitter/X: @zyntraq
